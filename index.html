@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Desafio Aposta</title>
+</head>
+
+<body class="container">
+    <header>
+        <h1>APOSTA MILIONÁRIA</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <fieldset class="blabla">
+                    <legend> Digite os números da sua aposta: </legend>
+                    <div class="form-group mb-4">
+                        <label for="idAposta">Número:</label>
+                        <input type="text" id="idAposta" name="nmAposta" min="1" max="60" autofocus
+                            placeholder="Número de 1 a 60" size="20" class="form-control">
+
+                        <input type="submit" value="ARMAZENAR" class="btn btn-outline-info">
+                        <p class="dica">Digite o número e clique em "ARMAZENAR" para salvá-lo. </p>
+                    </div>
+                    <div>
+                       
+
+                        <output id="idSaida1"></output>
+                        
+                    </div>
+                    <br>
+                    <input type="submit" value="CALCULAR" class="btn btn-info">
+                    <p class="dica">Clique em "CALCULAR" para gerar o(s) sorteio(s) e aguarde... </p>
+                </fieldset>
+            </div>
+            <br><br>
+            <div id="exibir" hidden>
+                <fieldset class="blabla">
+                    <legend> Resultados: </legend>
+                    <div class="form-group">
+                        <output id="idSaida2"></output>
+                    </div>
+                </fieldset>
+            </div>
+        </section>
+    </main>
+    <script src="assets/JS/script.js"></script>
+</body>
+
+</html>

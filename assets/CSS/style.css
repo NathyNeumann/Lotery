@@ -1,0 +1,36 @@
+.container{
+    margin: 50px auto;
+    
+}
+.btn .btn-info{
+    margin-top: 10px;
+}
+.blabla{
+    padding: 20px 40px;
+    border: 3px solid lightgray;
+}
+.form-group label, input{
+    margin: 10px 5px;
+}
+.dica{
+     font-size: 0.8rem;
+     color: gray;
+}
+h1{
+    color: #3B8596;
+    text-align: center;
+}
+#idSaida1{
+    font-size: 1.2rem;
+    color: #3B8596;
+    font-weight: 700;
+}
+strong{
+    font-size: 1.2rem;
+    color: #3B8596;
+    font-weight: 700;
+}
+#idSaida3{
+    color: black;
+    font-size: 0.8rem;
+}
